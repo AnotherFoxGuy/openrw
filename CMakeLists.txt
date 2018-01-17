@@ -43,3 +43,6 @@ endif()
 file(COPY COPYING
     DESTINATION "${PROJECT_BINARY_DIR}"
     )
+
+include(FeatureSummary)
+feature_summary(WHAT ALL)
